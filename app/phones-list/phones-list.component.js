@@ -1,9 +1,9 @@
 angular.
-module('phonecatApp').
-component('phoneList', {
-    templateUrl: 'phone-list/phone-list.template.html',
+module('PhonesApp').
+component('phonesList', {
+    templateUrl: 'phones-list/phones-list.template.html',
     controller: ['$http',
-        function PhoneListController($http) {
+        function PhonesListController($http) {
             var self = this;
             self.orderProp = 'age';
 

@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
-// Define the `phonecatApp` module
-var phonecatApp = angular.module('phonecatApp', []);
+// Define the `PhonesApp` module
+var PhonesApp = angular.module('PhonesApp', []);
 
-// Define the `PhoneListController` controller on the `phonecatApp` module
-phonecatApp.controller('PhoneListController', function PhoneListController($scope) {
-    $scope.name = 'world';
+// Define the `PhonesListController` controller on the `PhonesApp` module
+PhonesApp.controller('PhonesListController', function PhonesListController($scope) {
+    $scope.name = 'PhonesApp';
     $scope.phones = [
         {
             name: 'Nexus S',

@@ -1,9 +1,9 @@
 'use strict';
 
-describe('phoneList', function() {
+describe('phonesList', function() {
 
-    // Load the module that contains the `phoneList` component before each test
-    beforeEach(module('phoneList'));
+    // Load the module that contains the `phonesList` component before each test
+    beforeEach(module('phonesList'));
 
     // Test the controller
     describe('controller', function() {
@@ -14,7 +14,7 @@ describe('phoneList', function() {
             $httpBackend.expectGET('phones/phones.json')
                 .respond([{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
 
-            ctrl = $componentController('phoneList');
+            ctrl = $componentController('phonesList');
         }));
 
         it('should create a `phones` model with 3 phones', function() {

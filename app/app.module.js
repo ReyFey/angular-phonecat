@@ -1,6 +1,6 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
-  'phoneList'
+// Define the `PhonesApp` module
+angular.module('PhonesApp', [
+  'phonesList'
 ]);
